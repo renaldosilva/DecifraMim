@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DecifraMim</title>
+        <link rel="icon" href="assets/pencil-line-bold.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <header class="logo">
+            <a class="logo__link" href="index.html">
+                <img class="logo__link__image" src="assets/logo.svg" alt="Logotipo">
+            </a>
+        </header>
+        <main class="container">
+            <section class="container__encrypt">
+                <div class="container__encrypt__input">
+                    <div class="container__encrypt__input__box">
+                        <div class="container__box__text__input box__style">
+                            <textarea id="input-textarea" placeholder="Digite seu texto"></textarea>
+                        </div>
+                        
+                        <div class="container__encrypt__input__box__warning__message">
+                            <img src="assets/warning-circle-fill.svg" alt="Ícone de aviso.">
+                            <p>Apenas letras minúsculas e sem acento.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="container__encrypt__input__buttons">
+                        <button class="button__style button__style__1" type="button" onclick="encrypt()">Criptografar</button>
+                        <button class="button__style button__style__2" type="button" onclick="decrypt()">Descriptografar</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container__encrypt__result">
+                <div class="container__encrypt__result__output box__style">
+                    <div class="container__box__text__result hidden">
+                        <textarea id="result-textarea" readonly></textarea>
+                    </div>
+
+                    <div class="container__encrypt__result__output__image">
+                        <img src="assets/character.svg" alt="Personagem usando uma lupa.">
+                    </div>                  
+                    
+                    <div class="container__encrypt__result__output__help__message">
+                        <p id="main-message"><b>Nenhuma mensagem encontrada</b></p>
+                        <p id="secondary-message">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                    
+                    <div class="container__encrypt__result__output__button hidden">
+                        <button class="button__style button__style__2" type="button" onclick="copyToClipboard()">Copiar</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="baseboard">
+            <p>© 2024 Renaldo Silva - Challenge Oracle Next Education</p>
+        </footer>
+
+        <script src="scripts/app.js"></script>
+    </body>
+</html>
