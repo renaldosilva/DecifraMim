@@ -4,7 +4,7 @@
 
 ## 🌐 Acesse o Projeto
 
-Você pode visualizar e experimentar o projeto em: [Link para o projeto]
+Você pode visualizar e experimentar o projeto em: https://renaldosilva.github.io/DecifraMim
 
 ## 🛠 Funcionalidades
 
