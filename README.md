@@ -2,6 +2,8 @@
 
 **DecifraMim** é um projeto desenvolvido como parte do Desafio Oracle Next Education em parceria com a Alura. Esta aplicação foi criada para exercitar conceitos de lógica de programação ao implementar um sistema simples de criptografia e descriptografia de textos.
 
+![Demonstracao](https://github.com/user-attachments/assets/3d0112d6-d3cd-4ae2-8fcf-8c3b1d917d8c)
+
 ## 🌐 Acesse o Projeto
 
 Você pode visualizar e experimentar o projeto em: https://renaldosilva.github.io/DecifraMim
